@@ -139,12 +139,12 @@ while continuer:
 
             if all_skieur[0].progression < len(all_skieur[0].cheminement):
                 font = pygame.font.SysFont(FONT, 25)
-                trajet = f"{debutant.prenom} prenez " \
-                         f"{debutant.matrice_structure[have_indice.name_to_indice(debutant.lieu), have_indice.name_to_indice(debutant.cheminement[debutant.progression])]}" \
+                trajet = f"{all_skieur[0].prenom} prenez " \
+                         f"{all_skieur[0].matrice_structure[have_indice.name_to_indice(all_skieur[0].lieu), have_indice.name_to_indice(all_skieur[0].cheminement[all_skieur[0].progression])]}" \
                          f" vers " \
-                         f"{debutant.cheminement[debutant.progression]}" \
+                         f"{all_skieur[0].cheminement[all_skieur[0].progression]}" \
                          f" pendant " \
-                         f"{debutant.matrice_distance[have_indice.name_to_indice(debutant.lieu), have_indice.name_to_indice(debutant.cheminement[debutant.progression])]}" \
+                         f"{all_skieur[0].matrice_distance[have_indice.name_to_indice(all_skieur[0].lieu), have_indice.name_to_indice(all_skieur[0].cheminement[all_skieur[0].progression])]}" \
                          f" minutes"
                 trajet = font.render(trajet, True, 'black')
 

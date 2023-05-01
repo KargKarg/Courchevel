@@ -11,7 +11,7 @@ clock = pygame.time.Clock()
 #############################################
 
 #############################################
-# Variable global
+# Variable globale
 BACKGROUND = '#EEEDDA'
 LARGEUR = 1000
 HAUTEUR = 600
